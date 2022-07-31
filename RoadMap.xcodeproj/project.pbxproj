@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		246717007E4DC7193D6376C6 /* Pods_RoadMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CEFFC6A1C570670B4C4990 /* Pods_RoadMap.framework */; };
+		9536797E28939AD1001A9763 /* StudyEditorMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9536797D28939AD1001A9763 /* StudyEditorMain.swift */; };
+		953679802893AB80001A9763 /* SubjectPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9536797F2893AB80001A9763 /* SubjectPage.swift */; };
+		953679822893AB8F001A9763 /* PofolPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953679812893AB8F001A9763 /* PofolPage.swift */; };
 		95C57550288D60BC00561637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C5754F288D60BC00561637 /* AppDelegate.swift */; };
 		95C57552288D60BC00561637 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C57551288D60BC00561637 /* SceneDelegate.swift */; };
 		95C57554288D60BC00561637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C57553288D60BC00561637 /* ViewController.swift */; };
@@ -18,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		74A16F498AEE54FE9B60C4C9 /* Pods-RoadMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadMap.release.xcconfig"; path = "Target Support Files/Pods-RoadMap/Pods-RoadMap.release.xcconfig"; sourceTree = "<group>"; };
+		9536797D28939AD1001A9763 /* StudyEditorMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyEditorMain.swift; sourceTree = "<group>"; };
+		9536797F2893AB80001A9763 /* SubjectPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectPage.swift; sourceTree = "<group>"; };
+		953679812893AB8F001A9763 /* PofolPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PofolPage.swift; sourceTree = "<group>"; };
 		95C5754C288D60BC00561637 /* RoadMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95C5754F288D60BC00561637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95C57551288D60BC00561637 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +54,6 @@
 				ADB8CFD09AFE1B0D20DF4F16 /* Pods-RoadMap.debug.xcconfig */,
 				74A16F498AEE54FE9B60C4C9 /* Pods-RoadMap.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -58,6 +63,16 @@
 				C3CEFFC6A1C570670B4C4990 /* Pods_RoadMap.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9536797C28939A9C001A9763 /* StudyEditor */ = {
+			isa = PBXGroup;
+			children = (
+				9536797D28939AD1001A9763 /* StudyEditorMain.swift */,
+				9536797F2893AB80001A9763 /* SubjectPage.swift */,
+				953679812893AB8F001A9763 /* PofolPage.swift */,
+			);
+			path = StudyEditor;
 			sourceTree = "<group>";
 		};
 		95C57543288D60BC00561637 = {
@@ -81,6 +96,7 @@
 		95C5754E288D60BC00561637 /* RoadMap */ = {
 			isa = PBXGroup;
 			children = (
+				9536797C28939A9C001A9763 /* StudyEditor */,
 				95C5754F288D60BC00561637 /* AppDelegate.swift */,
 				95C57551288D60BC00561637 /* SceneDelegate.swift */,
 				95C57553288D60BC00561637 /* ViewController.swift */,
@@ -208,6 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				95C57554288D60BC00561637 /* ViewController.swift in Sources */,
+				9536797E28939AD1001A9763 /* StudyEditorMain.swift in Sources */,
+				953679802893AB80001A9763 /* SubjectPage.swift in Sources */,
+				953679822893AB8F001A9763 /* PofolPage.swift in Sources */,
 				95C57550288D60BC00561637 /* AppDelegate.swift in Sources */,
 				95C57552288D60BC00561637 /* SceneDelegate.swift in Sources */,
 			);
