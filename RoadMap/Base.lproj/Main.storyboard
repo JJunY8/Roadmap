@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="co8-eG-Qff">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yrd-2w-skd">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -26,7 +26,7 @@
             <objects>
                 <viewController id="RVb-8G-nzf" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xwD-Jy-LZ0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="dZb-P0-nh4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -37,10 +37,63 @@
             </objects>
             <point key="canvasLocation" x="-1084" y="675"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--View Controller-->
+        <scene sceneID="tT6-K8-2aI">
+            <objects>
+                <viewController id="yrd-2w-skd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tfc-W2-cs3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="OA6-JO-GT3">
+                                <rect key="frame" x="20" y="44" width="374" height="832"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xmd-MV-AUX">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="746.5"/>
+                                        <color key="backgroundColor" red="0.074094034729999994" green="0.054110266269999999" blue="0.79220730070000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="crh-oY-hcs">
+                                        <rect key="frame" x="0.0" y="746.5" width="374" height="85.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="시작하기">
+                                                    <attributes>
+                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                        <font key="NSFont" size="12" name="Galmuri11-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="co8-eG-Qff" kind="show" id="O3P-q3-meC"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="avy-IF-Kfs"/>
+                        <color key="backgroundColor" red="0.074094034729999994" green="0.054110266269999999" blue="0.79220730070000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="OA6-JO-GT3" firstAttribute="leading" secondItem="avy-IF-Kfs" secondAttribute="leading" constant="20" id="7aH-VR-P1F"/>
+                            <constraint firstAttribute="bottom" secondItem="OA6-JO-GT3" secondAttribute="bottom" constant="20" id="OQV-p7-tLq"/>
+                            <constraint firstItem="OA6-JO-GT3" firstAttribute="top" secondItem="avy-IF-Kfs" secondAttribute="top" id="c9A-mm-oH0"/>
+                            <constraint firstItem="avy-IF-Kfs" firstAttribute="trailing" secondItem="OA6-JO-GT3" secondAttribute="trailing" constant="20" id="vZs-FZ-zB3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ICr-jH-xct" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1162.3188405797102" y="-725.22321428571422"/>
+        </scene>
+        <!--TabV Iew-->
         <scene sceneID="ZN1-TR-6FV">
             <objects>
-                <tabBarController id="co8-eG-Qff" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabVIew" id="co8-eG-Qff" customClass="TabVIew" customModule="RoadMap" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="6xp-wU-cg1"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="x5f-Sy-nQ9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -61,7 +114,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RoadMap" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -77,6 +130,7 @@
         <image name="arrowshape.zigzag.right" catalog="system" width="128" height="93"/>
         <image name="calendar" catalog="system" width="128" height="106"/>
         <image name="highlighter" catalog="system" width="128" height="119"/>
+        <image name="logo.jpg" width="153.1199951171875" height="243.83999633789062"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
