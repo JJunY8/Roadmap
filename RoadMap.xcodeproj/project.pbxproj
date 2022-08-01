@@ -15,7 +15,6 @@
 		95C57559288D60BC00561637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C57558288D60BC00561637 /* Assets.xcassets */; };
 		95C5755C288D60BC00561637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C5755A288D60BC00561637 /* LaunchScreen.storyboard */; };
 		B7924D132896BE610019E726 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7924D122896BE610019E726 /* logo.jpg */; };
-		B7B8CBD22895CF540013EC54 /* roadmap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B8CBD02895CF540013EC54 /* roadmap.storyboard */; };
 		B7B8CBD72895D6E80013EC54 /* Galmuri11.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7B8CBD62895D6E80013EC54 /* Galmuri11.ttf */; };
 		B7B8CBDA28969A870013EC54 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B7B8CBD928969A870013EC54 /* logo.png */; };
 /* End PBXBuildFile section */
@@ -32,7 +31,6 @@
 		95C5755D288D60BC00561637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADB8CFD09AFE1B0D20DF4F16 /* Pods-RoadMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadMap.debug.xcconfig"; path = "Target Support Files/Pods-RoadMap/Pods-RoadMap.debug.xcconfig"; sourceTree = "<group>"; };
 		B7924D122896BE610019E726 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
-		B7B8CBD12895CF540013EC54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../Desktop/swu_guru/roadmap_page3/roadmap_page3/Base.lproj/roadmap.storyboard; sourceTree = "<group>"; };
 		B7B8CBD62895D6E80013EC54 /* Galmuri11.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Galmuri11.ttf; sourceTree = SOURCE_ROOT; };
 		B7B8CBD928969A870013EC54 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		C3CEFFC6A1C570670B4C4990 /* Pods_RoadMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoadMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
