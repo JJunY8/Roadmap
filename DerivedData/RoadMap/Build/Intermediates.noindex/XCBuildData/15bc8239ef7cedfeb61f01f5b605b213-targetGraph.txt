@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+FMDB in Pods, no dependencies
+Pods-RoadMap in Pods, depends on:
+FMDB in Pods (explicit)
+RoadMap in RoadMap, depends on:
+Pods-RoadMap in Pods (implicit dependency via file 'Pods_RoadMap.framework' in build phase 'Link Binary')
+FMDB in Pods (implicit dependency via options '-framework FMDB' in build setting 'OTHER_LDFLAGS')

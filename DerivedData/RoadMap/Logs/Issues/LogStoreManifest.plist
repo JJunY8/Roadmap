@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>282161D0-ACA6-4774-8AAC-D87FDC002298</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>282161D0-ACA6-4774-8AAC-D87FDC002298.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>FMDB-gkkaunnxqjfaewgtdlcnpzkqirpj</string>
+			<key>timeStartedRecording</key>
+			<real>681051241.71959102</real>
+			<key>timeStoppedRecording</key>
+			<real>681051244.11269295</real>
+			<key>title</key>
+			<string>Build target FMDB</string>
+			<key>uniqueIdentifier</key>
+			<string>282161D0-ACA6-4774-8AAC-D87FDC002298</string>
+		</dict>
+		<key>6719B907-2093-4463-8DD2-3AFF4F59ACBD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>6719B907-2093-4463-8DD2-3AFF4F59ACBD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Pods-RoadMap-gkkaunnxqjfaewgtdlcnpzkqirpj</string>
+			<key>timeStartedRecording</key>
+			<real>681051241.71949196</real>
+			<key>timeStoppedRecording</key>
+			<real>681051244.12642705</real>
+			<key>title</key>
+			<string>Build target Pods-RoadMap</string>
+			<key>uniqueIdentifier</key>
+			<string>6719B907-2093-4463-8DD2-3AFF4F59ACBD</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

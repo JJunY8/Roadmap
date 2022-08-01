@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "80fd8d955e4b7bb5deed44d9c1b82070cfe70628ca2b3b2550eacfb70fa1f087"
+build_start_time: [1659358444, 171495914]
+build_end_time: [1659358446, 512579917]
+inputs:
+  "/Users/jiyoon/Downloads/Roadmap-main/RoadMap/AppDelegate.swift": [1659050449, 0]
+  "/Users/jiyoon/Downloads/Roadmap-main/RoadMap/SceneDelegate.swift": [1659050449, 0]
+  "/Users/jiyoon/Downloads/Roadmap-main/RoadMap/ViewController.swift": [1659274702, 0]
