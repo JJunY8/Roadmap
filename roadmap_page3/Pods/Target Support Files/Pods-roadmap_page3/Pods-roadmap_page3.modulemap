@@ -1,6 +1,0 @@
-framework module Pods_roadmap_page3 {
-  umbrella header "Pods-roadmap_page3-umbrella.h"
-
-  export *
-  module * { export * }
-}
